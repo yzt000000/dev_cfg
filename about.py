@@ -5,6 +5,8 @@ from pygments import highlight
 from pygments.lexers import PythonLexer
 from pygments.formatters import HtmlFormatter
 
+
+
 class AboutPage(QWidget):
     def __init__(self):
         super().__init__()
